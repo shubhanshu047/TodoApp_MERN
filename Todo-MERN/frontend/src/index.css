@@ -1,0 +1,165 @@
+.but{
+  padding: 2px 12px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgba(56, 56, 255, 0.982);
+  color: white;
+}
+.but:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+}
+form *{
+  margin:5px 0px 5px 0px;
+}
+.nav{
+  width:100%;
+  display: flex;
+  justify-content: end;
+  padding: 20px 0px;
+}
+.nav button{
+  margin: 0px 2px;
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(254, 72, 72);
+    color: white;
+    font-weight: 700;
+}
+.nav button:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.nav input{
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0px 15px;
+}
+h2, h3, h5, p{
+  text-align: center;
+}
+.maintodo{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.todos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.addtodo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 0px 10px 20px 10px;
+  margin: 5px;
+  width: 350px;
+  height: 200px;
+}
+.num{
+  display: inline;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding:1% 2%;
+  margin: 2px;
+}
+.card h5{
+  margin:2px;
+}
+.card .btns{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card .btns button:nth-child(1){
+  background-color: rgba(24, 220, 24, 0.808);
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-style: bold;
+}
+
+.card .btns button:nth-child(2){
+  background-color: rgba(220, 24, 24, 0.808);
+  color: white;
+  padding: 5px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-style: bold;
+}
+.card .btns button:nth-child(1):hover, .card .btns button:nth-child(2):hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+}
+.addtodo{
+  margin-top: 60px;
+}
+.addtodo form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px 40px 20px 40px;
+  margin: 5px;
+  width: 600px;
+  height: 200px;
+}
+.submit{
+  background-color: rgba(26, 40, 241, 0.808);
+  color: white;
+  padding: 3px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-style: bold;
+}
+.submit:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: black;
+}
+.page{
+  width:50%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.page button{
+  background-color: rgba(0, 0, 0, 0.699);
+  color: white;
+  font-style: bold;
+  font-weight: 600;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px 5px;
+}
+.page button:hover{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
